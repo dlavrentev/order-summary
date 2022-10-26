@@ -60,6 +60,32 @@ body {
   margin-top: 24px;
 }
 
+.plan div {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.plan div :first-child {
+  font-weight: 900;
+  font-size: 14px;
+  color: #1f2e55;
+  margin: 0 0 3px 0;
+}
+
+.plan div :last-child {
+  font-weight: 500;
+  font-size: 14px;
+  color: #717fa6;
+  margin: 0;
+}
+
+.plan a {
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+
 .btn-pay {
   background: #382ae1;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
