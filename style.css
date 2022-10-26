@@ -6,6 +6,13 @@ html {
   font-style: normal;
 }
 
+@media only screen and (min-width: 376px) {
+    html {
+        background-image: url("/images/pattern-background-desktop.svg");
+        background-repeat: repeat-x;
+    }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -106,3 +113,5 @@ body {
   color: #717fa6;
   margin-top: 24px;
 }
+
+
